@@ -33,7 +33,7 @@ export default class App extends React.Component {
     ) {
       this.setState({
         allValid: true,
-        submitted: false,
+        submitted: false, //To Success M Is Not Shown After Submit Filled Form
         firstNameData: "",
         lastNameData: "",
         emailData: "",
@@ -47,7 +47,7 @@ export default class App extends React.Component {
     } else {
       this.setState({
         submitted: true,
-        allValid: false,
+        allValid: false, //To Success M Is Not Shown when Submit Form Is Empty
       });
     }
   }
