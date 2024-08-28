@@ -29,7 +29,12 @@ body {
   padding: 15px;
   color: white;
 }
-
+.warning-message {
+  font-family: "Roboto", sans-serif;
+  background-color: #f6cd29;
+  padding: 15px;
+  color: white;
+}
 .form-field {
   margin: 10px 0 10px 0;
   padding: 15px;
